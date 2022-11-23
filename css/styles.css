@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darksalmon;
+}
+.navegacion {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+.navegacion ul {
+    padding: 20px;
+}
+.navegacion ul li {
+    cursor: pointer;
+    font-size: 1em;
+}
+.navegacion ul:hover {
+    background-color: #fff;
+}
